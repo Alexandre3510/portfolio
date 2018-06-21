@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Ruluko');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+body{
+    background: #f4f4f4 !important;
+}
+
+html,body{
+    overflow-x: hidden !important;
+}
+figure.foto-legenda img {
+        width: 100%;
+        min-height: 400px;
+}
+
+/*por a legenda dentro da imagem*/
+
+figure.foto-legenda figcaption{ 
+    position: absolute;
+    top:35%; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+figure.foto-legenda nav{ 
+    position: absolute;
+    top:2%; 
+    background-color: transparent !important;
+    border-color:transparent !important;
+    font-size: 18pt; 
+    width: 100% !important;
+    
+}
+
+.navbar-default{
+    z-index:1000;
+}
+@media screen and (max-width:767px){
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    background:#333;
+    }
+}
+figure.foto-legenda figcaption h2{ 
+    color:white; 
+    font-size: 60px;   
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;    
+ }
+ figure.foto-legenda figcaption p{ 
+    color:white; 
+    font-size: 28px;  
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+
+@media screen and (max-width: 900px){
+    figure.foto-legenda figcaption h2{ 
+        font-size: 50px;   
+        
+    }
+figure.foto-legenda figcaption{ 
+    top:25%;     
+    } 
+ figure.foto-legenda figcaption p{ 
+    font-size: 23px;  
+ }     
+    
+}
+
+@media screen and (max-width: 650px){
+    figure.foto-legenda figcaption h2{ 
+        font-size: 40px;   
+        
+    }
+figure.foto-legenda figcaption{ 
+    top:15%;     
+    } 
+ figure.foto-legenda figcaption p{ 
+    font-size: 18px;  
+ }     
+    
+}
+
+@media screen and (max-width: 400px){
+    figure.foto-legenda figcaption h2{ 
+        font-size: 30px;   
+        
+    }
+figure.foto-legenda figcaption{ 
+    top:20%;     
+    } 
+ figure.foto-legenda figcaption p{ 
+    font-size: 18px;  
+ }     
+    
+}
+
+  .navbar-default .navbar-nav li a {
+    color: #fff !important;
+    font-size: 18px;
+    text-decoration: none;
+    
+
+  }
+  .navbar-default .navbar-nav a:hover{
+      color: #cecece!important;
+  }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background: rgb(102, 211, 126) !important;
+      
+  }
+
+.linhaTopo{
+    width: 100%;
+    height: 1px;
+    color: rgba(255, 255, 255, 0.2);
+
+}
+
+  .padrao hr{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    max-width: 100px;
+    height: 2px;
+    border-top: 3px solid #66D37E;
+  }
+
+  .padrao h2{
+      margin-top: 80px;
+      font-size:40px;
+      font-family: 'Open Sans', sans-serif;
+      color: #5a5a5a;
+  }
+
+  .padrao p{
+    margin-top: 30px;
+    font-size:20px;
+    font-family: 'Lato', sans-serif;
+    color: #848484;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+.sobre img{
+    width: 85%;
+    margin-top: 70px;
+}
+
+a.leia{
+    padding: 15px  5px;
+    background: #66D37E;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 50px!important;
+    width: 200px;
+    font-size: 18px; 
+    display: flex;
+    /*centralizar o botão*/
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;    
+  }
+
+  a.leia:hover{
+    background: #696969;
+  }
+
+.img figure{
+    /*centralizar a imagem*/    
+    position: absolute;
+    top:-100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+   
+}
+  .vantagens img{
+    width:100px;
+    margin-top: 50px;
+    /*centralizar a imagem*/    
+    margin-left: AUTO;
+    margin-right: AUTO;
+    border-radius: 50%;
+    border: 10px solid #fff;
+  }
+
+  @media screen and (max-width: 1000px){
+    .vantagem{
+        margin-bottom: 100px!important;
+      }
+  }
+
+  blockquote {
+    font-size: 22px;
+    background: #fff;
+  }
+  blockquote p {
+    font-size: 22px;
+    color: #555555;
+    padding: 0px 15px 25px 15px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-style: italic;
+
+}
+
+blockquote h3 {
+    padding: 45px 0px 20px;    
+    font-size: 22px;
+    color: #555555;
+    font-family: "Open Sans", Arial, sans-serif;
+
+}
+
+.margin-100{
+    margin-top: 100px;
+}
+
+
+
+.quadros h3{
+    color: #FBFFA3;
+    font-size: 20px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 400;
+    padding: 17px;
+    
+}
+
+.quadros p{
+    color: #fff;
+    font-size: 16px;
+    color:rgba(255, 255, 255, 0.8);
+    font-family: "Open Sans", Arial, sans-serif;
+    padding: 10px 10px 30px 10px;
+}
+.quadro{
+    background-color: #66D37E;
+    margin-bottom: 30px;
+    
+}
+
+.quadros i{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 40px;
+}
+.exercicio img{
+    margin-top: 60px;
+    width: 90%;
+    border: solid 1px black;
+    box-shadow: 1px 3px 3px black;
+}
+
+.alimentos i{
+    font-size: 30px;
+    color: #848484;
+    margin-left: 40px;
+    
+}
+
+.itens{
+    margin-left: 40px;
+    color:#1a1a1a;
+    font-size: 15px !important;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 600;
+    
+}
+
+.alimentos p{
+    font-size: 15px;
+    color: #848484;
+    font-weight: 300;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+#footer{
+    width: 100%;
+    background: #66D37E;
+    margin-bottom: 0px!important;
+}
+
+#footer p{
+    color:#fff;
+    text-align: center;
+    padding: 20px 20px 5px 20px;
+    font-family: 'Ruluko', sans-serif;
+    font-size: 14pt;
+}
+#footer i{
+    font-size: 30px;
+    color: #fff;
+    padding: 0px 2px 10px;
+}
+
+#footer i:hover{
+    color: #cecece;
+}

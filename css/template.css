@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Ruluko');
+
+
+.topo-barra{
+    font-size: 100%;
+    background-color: rgba(0,0,0,0.8);
+    color:#fff;
+    padding: 15px;
+}
+
+.slide{
+    box-shadow: 3px 8px 8px black !important;
+    border: solid black 2px;;
+    font-size: 100% !important;
+    
+}
+
+ a{
+    color: white;
+    text-decoration: none;
+}
+
+
+ a:hover{
+    color:#696969;
+    text-decoration: none;
+}
+
+
+.topo-barra i{
+    font-size: 25px;
+    list-style: none;
+    display: inline;
+}
+
+#sobre-mim{
+    margin-top:  0px; 
+}
+
+#sobre-mim h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 34pt;
+    margin-top:70px;
+}
+
+#sobre-mim p{
+        font-size: 13pt;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        color:#999 ;
+        line-height: 1.6;
+}
+
+@media screen and (max-width:991px){
+    #sobre-mim p{
+        text-align: center;
+    }
+}
+
+#sobre-mim img{
+    border-radius: 20%;
+    margin-top: 50px;
+    width: 70%;
+    margin-left:auto;
+    margin-right: auto;
+}
+  
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    border-radius:0;
+    padding-top:20px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #82ca9c;
+    background-color:transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: rgba(0,0,0,0.9);
+    font-size:14px;
+    font-weight:600;
+	text-transform:uppercase;
+}
+.navbar-default .navbar-nav li a :hover{
+    color: #66060a;;
+}
+.navbar-default .collapse .login a{
+    color: #66060a;;
+    border: 3px solid #66060a;;
+    border-radius: 20px;
+    padding: 4px 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display:inline-block;
+    overflow:hidden;
+}
+.navbar-default .collapse .login:hover a{
+    background-color: #66060a;;
+    color:#fff;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #66060a;;
+    background-color: transparent;
+}
+.navbar-brand{
+	margin-top:-5px;	
+}
+
+h2.navbar-brand {
+    color:#66060a !important;
+    font-size: 23pt;	
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+@media screen and (max-width:500px){
+    h2.navbar-brand{
+        font-size: 19pt;
+    }
+}
+
+.portfolio2{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 4px;
+    margin-bottom: 30px;
+
+   
+    
+}
+
+.portfolio h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 34pt;;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.portfolio h2{
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.portfolio img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    
+}
+.portfolio2:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+    
+
+
+
+hr{
+    text-align: center;
+    width: 60px;
+    height: 2px;
+    background:#66060a;
+    position: relative;
+    
+}
+#contato{
+    background: #f6f6f6;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: -10px!important;
+}
+#contato h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 34pt;
+}
+.page-contato{
+   margin-top: 80px;
+}
+
+@media screen and (max-width: 1000px){
+ 
+    .page-contato{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .page-contato  p{
+        font-size: 11pt !important;
+    }
+    .slide{
+    min-height: 200px;
+    }
+    .footer{
+        font-size: 13pt;
+    }
+}
+.page-contato p{
+    display: inline;
+    font-family: 'Ruluko', sans-serif;
+    font-size: 12pt;
+    color:#777 ;
+    line-height:30px;
+}
+
+.page-contato i{
+    font-size: 19px;
+    color:black;
+    
+}
+
+
+.form h3 {
+	font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background: #66060a;
+	border: 2px solid #66060a;
+	color: #fff;
+
+	
+	border-radius: 22px;
+	padding: 10px 20px;
+	margin-top: 10px;
+}
+.btn:hover, .btn:focus {
+	background: transparent;
+    border: 2px solid #696969;
+    color: #696969;
+}
+
+.btn:active, .btn.active {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+	outline: none;
+	outline-offset: none;
+}
+
+.footer{
+    width: 100% !important;
+    margin-bottom: 0px !important;    
+    background-color: #222222;
+    color: white;
+    padding: 20px 20px 4px 20px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.your-name input{
+    border-radius: 4px;
+    width: 585px;
+    display: block;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+}
+.your-email input{
+    border-radius: 4px;
+    width: 585px; 
+    display: block;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;   
+}
+.your-message textarea{
+    border-radius: 4px;
+    width: 585px;  
+    height: 100px;  
+    display: block;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    
+}
+
+
+    .wpcf7-submit{
+        border-radius: 4px;
+        background: #66060a;
+        border: 2px solid #66060a;
+        color: #fff;
+        padding: 10px 20px;
+        margin-top: 20px;
+        
+        margin-top: -20px;
+    }
+    .wpcf7-submit:hover, .wpcf7-submit:focus {
+        background: transparent;
+        border: 2px solid #696969;
+        color: #696969;
+        
+    }
+
+    @media screen and (max-width: 1050px){
+        .your-name input{
+            border-radius: 4px;
+            width: 400px;
+        }
+        .your-email input{
+            border-radius: 4px;
+            width: 400px;    
+        }
+        .your-message textarea{
+            border-radius: 4px;
+            width: 400px;  
+            height: 100px;  
+            
+        }
+    }
+
+    @media screen and (max-width: 500px){
+        .your-name input{
+            border-radius: 4px;
+            max-width: 300px;
+        }
+        .your-email input{
+            border-radius: 4px;
+            max-width: 300px;    
+        }
+        .your-message textarea{
+            border-radius: 4px;
+            width: 300px;  
+            height: 100px;  
+            
+        }
+    }
+
+    @media screen and (max-width: 400px){
+        .your-name input{
+            border-radius: 4px;
+            max-width: 250px;
+        }
+        .your-email input{
+            border-radius: 4px;
+            width: 250px;    
+        }
+        .your-message textarea{
+            border-radius: 4px;
+            width: 250px;  
+            height: 100px;  
+            
+        }
+    }
+
+    .curriculo {
+        width: 200px;
+        background: #66060a;
+        border: 2px solid #66060a;
+        color: #fff;
+        font-size: 16px;
+        border-radius: 22px;
+        padding: 10px 20px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .curriculo:hover, .btn:focus {
+        background: transparent;
+        border: 2px solid #696969;
+        color: #696969;
+        
+    }
+
+    .error{
+        color:#C40000;
+        font-size: 16px;
+        font-weight: 500;
+     }
+     
+     .success{
+         color: #27aa3b;
+         font-size:16px;
+         
+     }
